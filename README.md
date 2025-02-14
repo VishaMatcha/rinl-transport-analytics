@@ -11,3 +11,21 @@ RINL Transport Analytics is a **full-stack application** designed to analyze Ind
 - 📦 **Dockerized Deployment**
 
 ## **📁 Project Structure**
+
+```
+rinl-transport-analytics/
+│── backend/             # FastAPI Backend
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── db_init.py
+│── frontend/            # React Frontend
+│   ├── src/
+│   ├── public/
+│── database/            # PostgreSQL Setup
+│   ├── schema.sql
+│   ├── seed.sql
+│── docker-compose.yml   # Docker Configuration
+│── README.md            # Documentation
+```
