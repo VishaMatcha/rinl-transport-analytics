@@ -29,3 +29,18 @@ rinl-transport-analytics/
 │── docker-compose.yml   # Docker Configuration
 │── README.md            # Documentation
 ```
+
+## **🚀 Features**
+✅ **Real-time train schedule tracking**  
+✅ **FastAPI REST API with PostgreSQL**  
+✅ **React-based UI with Bootstrap**  
+✅ **Data visualization with Plotly Dash**  
+✅ **Dockerized for easy deployment**  
+
+## **📌 Setup Instructions**
+### **1️⃣ Prerequisites**
+Ensure you have the following installed:
+- [Python 3.9+](https://www.python.org/)
+- [Node.js 16+](https://nodejs.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Docker](https://www.docker.com/)
