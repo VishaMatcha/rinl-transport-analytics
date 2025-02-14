@@ -78,3 +78,20 @@ cd ../frontend
 npm install
 npm start
 ```
+Frontend will be available at: **http://localhost:3000**
+
+### **6️⃣ (Optional) Run with Docker**
+```bash
+docker-compose up --build
+```
+This starts:
+- **PostgreSQL**
+- **FastAPI Backend**
+- **React Frontend**
+
+## **🔗 API Endpoints**
+| Method | Endpoint       | Description             |
+|--------|---------------|-------------------------|
+| `GET`  | `/trains/`    | Fetch all train data   |
+| `POST` | `/trains/`    | Add new train record   |
+| `GET`  | `/trains/{id}`| Get train by ID        |
