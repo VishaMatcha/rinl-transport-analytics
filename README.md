@@ -44,3 +44,16 @@ Ensure you have the following installed:
 - [Node.js 16+](https://nodejs.org/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Docker](https://www.docker.com/)
+
+### **2️⃣ Clone the Repository**
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/rinl-transport-analytics.git
+cd rinl-transport-analytics
+```
+
+### **3️⃣ Set Up the Database**
+```bash
+psql -U postgres -c "CREATE DATABASE rinl_transport;"
+psql -U postgres -d rinl_transport -f database/schema.sql
+psql -U postgres -d rinl_transport -f database/seed.sql
+```
