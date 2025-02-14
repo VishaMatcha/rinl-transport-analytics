@@ -1,0 +1,10 @@
+# Ignore environment files
+.env
+venv/
+node_modules/
+__pycache__/
+db.sqlite3
+.DS_Store
+
+# Ignore Docker volumes
+pgdata/
