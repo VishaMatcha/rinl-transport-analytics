@@ -57,3 +57,24 @@ psql -U postgres -c "CREATE DATABASE rinl_transport;"
 psql -U postgres -d rinl_transport -f database/schema.sql
 psql -U postgres -d rinl_transport -f database/seed.sql
 ```
+
+
+### **4️⃣ Run the Backend**
+Navigate to the backend folder and install dependencies:
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+Backend will run at: **http://127.0.0.1:8000**  
+Check API Docs: **http://127.0.0.1:8000/docs**
+
+### **5️⃣ Run the Frontend**
+Navigate to the frontend folder:
+```bash
+cd ../frontend
+npm install
+npm start
+```
