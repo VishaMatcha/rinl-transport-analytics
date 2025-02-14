@@ -95,3 +95,15 @@ This starts:
 | `GET`  | `/trains/`    | Fetch all train data   |
 | `POST` | `/trains/`    | Add new train record   |
 | `GET`  | `/trains/{id}`| Get train by ID        |
+
+## **📌 Contributing**
+Want to improve this project? Follow these steps:
+1. **Fork the repository**
+2. **Create a new branch**
+3. **Commit your changes**
+4. **Push and submit a pull request**
+
+
+
+## **📞 Contact**
+🔹 **Author:** Sai Vishal Matcha
